@@ -6,7 +6,7 @@ function driversWithRevenueOver(drivers, amt) {
 
 
 function driverNamesWithRevenueOver(driver, revenue) {
-  let findNameByRevenue = findByRevenue.map(function (name))
+  let findNameByRevenue = findByRevenue.map(function (driver) {return driver.name});
 }
 
 function exactMatch(driver, object) {
