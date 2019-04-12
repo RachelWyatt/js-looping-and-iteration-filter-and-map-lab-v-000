@@ -17,6 +17,7 @@ function exactMatch(drivers, obj) {
   return matchDriversArr;
 }
 
-function exactMatchToList(driver, object) {
-  
+function exactMatchToList(drivers, obj) {
+  let exactMatchToList = exactMatch(drivers, obj).map(function (driver) {return driver.name});
+  return exactMatchToList;
 }
