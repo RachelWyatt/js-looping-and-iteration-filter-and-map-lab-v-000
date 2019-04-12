@@ -6,6 +6,7 @@ function driversWithRevenueOver(drivers, amt) {
 
 
 function driverNamesWithRevenueOver(driver, revenue) {
+  let findByRevenue = drivers.filter(function(driver) { return driver.revenue > amt });
   let findNameByRevenue = findByRevenue.map(function (driver) {return driver.name});
 }
 
